@@ -1,0 +1,72 @@
+.container {
+  margin: 20px auto;
+  width: 600px;
+  padding: 0px 20px 20px 20px;
+  border: 1px dotted black;
+}
+th {
+  text-align: left;
+}
+.boton{
+  border-radius: 10px;
+  border:none;
+  background: DarkCyan;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+}
+.boton:hover{
+  border:1px solid gray;
+}
+#barra_superior{
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: white;
+  -moz-border-radius-bottom-right: 50px 25px;
+  border-bottom-right-radius: 50px 25px;
+  -moz-border-radius-bottom-left: 50px 25px;
+  border-bottom-left-radius: 50px 25px;
+  font-size: 30px;
+  font-weight: bold;
+}
+label{
+  font-size: 20px;
+  font-weight: bold;
+}
+input{
+  border:none;
+  background-color: #bada55;
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  margin:10px;
+}
+
+.carousel{
+  width: 46.7%;
+  overflow: hidden;
+  margin-left: 30%;
+}
+
+.frames {
+  list-style: none;
+  position: relative;
+  width: 300%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  left: 0;
+*/
+}
+.frames > li {
+  position: relative;
+  float: left;
+}
+
+
+.carousel img {
+  display:block;
+}
